@@ -257,6 +257,7 @@ a {
   display: flex;
   align-items: center;
   font-size: var(--small-font-size);
+  color: #0b0a0a;
 }
 
 .home__icon a{
@@ -546,8 +547,27 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .experience_section{
-    padding-top: 200px;
+  .references__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .references__container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .references__content{
+    gap: .25rem;
+   
+  }
+  
+  .references__subtitle{
+    color: var(--text-color-light);
+  }
+  
+  .references__subtitle,
+  .references__contact{
+    font-size: var(--smaller-font-size);
   }
 
 }
