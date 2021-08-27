@@ -307,8 +307,13 @@ a {
   color: var(--title-color);
 }
 
+
 .social__container a{
-  color: #0b0a0a;
+  color: #071bcf;
+}
+
+.social__container a:hover{
+  color: var(--text-color);
 }
 
 .social__icon {
@@ -329,6 +334,10 @@ a {
 
 .education_studies a {
   text-decoration: none;
+  color: blue;
+}
+
+.education_studies a:hover {
   color: var(--text-color);
 }
 
@@ -370,7 +379,6 @@ a {
 .education_studies,
 .experience_company {
   font-size: var(--small-font-size);
-  color: var(--title-color);
 }
 
 .education_year {
@@ -398,7 +406,7 @@ a {
 
 .experience_company a {
   text-decoration: none;
-  color: var(--text-color);
+  color: blue;
 }
 
 .education_title h2 {
